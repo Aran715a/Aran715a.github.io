@@ -1,0 +1,71 @@
+body {
+    background-color: #f29cfa;
+}
+h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+nav a {
+    margin: 10px;
+    color: white;
+    background-color: #ff69e6;
+    padding: 10px;
+    text-decoration: none;
+}
+img {
+    position: absolute;
+    left: 140px;
+}
+video {
+    position: absolute;
+    left: 150px;
+}
+audio {
+    position: absolute;
+    left: 120px; 
+}
+nav a:hover {
+    background-color: #ff1cff;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none; /* Oculto por defecto */
+    position: absolute;
+    background-color: #ff69e6;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: #ff1cff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+button {
+    background-color: #d81882;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #960064;
+}
